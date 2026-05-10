@@ -49,16 +49,24 @@ The central output is a scatter plot with the ET/Precipitation ratio on the x-ax
 
 ## Data Access
 
+Begin by creating a folder named `data/` in the root of the repository. All datasets should be placed within this folder as described below.
+
 ### USGS Well Data
+Groundwater monitoring site metadata and associated groundwater level records are hosted on HydroShare. Download the CSV from the following link and place it in a folder named `gw_data/` within `data/`:
+
+[Groundwater Site Data – HydroShare](https://www.hydroshare.org/resource/04b9eebf0d4b4490a15e1f27be46f7e4/)
 
 ### USDA Cropland Cultivation Data
+Cultivation data are sourced from the USDA Cropland Data Layer (CDL), available for 2008–2025. Download the 'National CDL' for zip file for the years 2000-2020. All zip files should then be placed in a folder named `cdl_data/` within `data/`. Once all files are in `cdl_data/`, they can be unzipped.
+
+[Cropland Cultivation Data - USDA](https://www.nass.usda.gov/Research_and_Science/Cropland/Release/index.php)
 
 ### OpenET Evapotranspiration Data
 
-### CHIRPs Precipitation Data
+### CHIRPS Precipitation Data
 
-### Aridity Data
-
+### Aridity Index Data
+Aridity data were obtained from the [Global Aridity Index and Potential Evapotranspiration (ET₀) Database: Version 3.1](https://doi.org/10.6084/m9.figshare.7504448), available through Figshare. Download and unzip the `Global-AI_ET0_annual_v3_1` folder. This analysis uses the annual raster file `ai_v31_yr.tif`.
 ---
 
 ## Statistical Methods and Sensitivity Testing
