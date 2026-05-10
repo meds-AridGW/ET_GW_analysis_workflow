@@ -67,6 +67,7 @@ Cultivation data are sourced from the USDA Cropland Data Layer (CDL), available 
 
 ### Aridity Index Data
 Aridity data were obtained from the [Global Aridity Index and Potential Evapotranspiration (ET₀) Database: Version 3.1](https://doi.org/10.6084/m9.figshare.7504448), available through Figshare. Download and unzip the `Global-AI_ET0_annual_v3_1` folder. This analysis uses the annual raster file `ai_v31_yr.tif`.
+
 ---
 
 ## Statistical Methods and Sensitivity Testing
