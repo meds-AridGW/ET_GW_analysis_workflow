@@ -46,7 +46,7 @@ The central output is a scatter plot with the ET/Precipitation ratio on the x-ax
 ├── spearman_rank/
 │   └── spearman_stats.ipynb
 └── yml/
-    └── arid_gw.yml
+    └── AridGW.yml
 ```
 
 
